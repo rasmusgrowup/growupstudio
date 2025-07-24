@@ -16,6 +16,12 @@
     margin-bottom: 2rem;
 }
 
+@media (max-width: 800px) {
+    .h1 {
+        font-size: 2.3rem;
+    }
+}
+
 .subh1 {
     font-size: 1.5rem;
 }
@@ -54,15 +60,19 @@
 
 .contactBtn {
     align-items: center;
-    background-color: var(--textColor);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 0.5rem;
-    color: var(--background);
+    color: var(--textColor);
     display: flex;
     font-size: 1.5rem;
     justify-content: center;
-    height: 4rem;
     margin-top: 2rem;
-    width: 100%;
+    padding: 1rem 2rem;
+    width: fit-content;
+}
+
+.contactBtn:hover {
+    border: 1px solid var(--textColor);
 }
 
 @media (max-width: 800px) {

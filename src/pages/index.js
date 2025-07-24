@@ -31,7 +31,7 @@ export default function Home() {
                             </li>
                         ))}
                     </ul>
-                    <a className={styles.contactBtn} href={'mailto:hello@growupstudio.dk'}>Kontakt os her</a>
+                    <a className={styles.contactBtn} href={'mailto:hello@growupstudio.dk'}>Kontakt os her {'->'}</a>
                 </div>
             </main>
         </>
